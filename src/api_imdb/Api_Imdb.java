@@ -47,7 +47,7 @@ public class Api_Imdb {
                 filme.put("personalVote", personalVote);
                 System.out.println("Nota " + personalVote + " atribuida com sucesso!");
                 System.out.println("---");
-                System.out.println("Filmes com suas notas pessoais e notas do publico:");
+                System.out.println("Filmes com suas notas pessoais");
                 System.out.println("---");
                 for (Map<String, String> filme1 : moviesList){
                     System.out.println(" ");
